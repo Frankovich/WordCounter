@@ -1,13 +1,6 @@
-import re
+import numpy as np
 
-def countInString(searchFor, searchIn):
-    return len(re.findall(searchFor, searchIn))
+def counter(thing1, thing2):
+    return 1;
 
-def countInList(searchFor, searchIn):
-    count = 0
-    for entry in searchIn:
-        if entry == searchFor:
-            count+=1
-    return count 
-
-    
+print(counter(1, 2))
